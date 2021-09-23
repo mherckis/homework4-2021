@@ -32,7 +32,7 @@ body{
   background: url("../images/pigeon-background.JPEG");
   background-size: cover;
   background-position: center;
-  background-color: DDDDDD;
+  background-color: #DDDDDD;
   background-repeat: no-repeat;
 
   /*Req 1*/
@@ -86,6 +86,7 @@ td {
   padding: 10px;
   text-align: center;
   text-transform: uppercase;
+  vertical-align: middle;
 }
 
 .rowhead{
@@ -144,7 +145,7 @@ footer{
   text-align:center;
   color: #FFFFFF;
   min-height: 75px;
-  position: absolute; 
+  position: fixed; 
   bottom: 0;
   left: 0;
 }
